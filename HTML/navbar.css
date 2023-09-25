@@ -11,6 +11,9 @@
     height: 60px;
     
     background-color:rgb(169, 12, 12);
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr;
+    
   
 }
 
@@ -74,7 +77,12 @@
     color: black;
 }
 
-
+.search{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    
+}
 
 .srch{
     font-family: 'Times New Roman';
@@ -109,7 +117,14 @@
     background-color: rgb(52, 52, 52);
     
 }
-
+.search a img{
+    padding-top: 10px;
+    padding-right: 20px;
+}
+.search a {
+  display: grid;
+}
+ 
 
 
 
@@ -121,26 +136,38 @@
   
     background-color: white;
 }
-.categories ul li a{
-    color: black;
-    font-size: 12px;
-    padding-right: 30px;
-    margin-top: 0px;
-    
-
-
-}
 .categories ul{
-    margin: 0px;
-    height: 15px;
-    margin-left: 40px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+    
+    margin-left: 100px;
+    
+    margin-bottom: 0px;
+    
+   
     
 
 }
+
 .categories ul li{
-    margin: 1px;
-    margin-top:7px;
+    list-style: none;
+    margin-left: 62px;
+    
+    font-size: 12px;
 
-    padding-left: 30px;
+}
 
+.categories ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+.categories ul li a:hover{
+    color: rgb(169, 12, 12);
 }
