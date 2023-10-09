@@ -1,0 +1,173 @@
+.blog{
+    height: 20px;
+    background-color: black;
+    text-align: center;
+    color: white;
+
+}
+
+
+.navbar{
+    height: 60px;
+    
+    background-color:rgb(169, 12, 12);
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr;
+    
+  
+}
+
+.icon{
+    width: 200px;
+   
+    height: x;
+    font-family: Arial;
+    margin-left: px;
+    float: left;
+    
+    
+    
+    
+}
+.icon img{
+    max-width: 100%; /* Resize image to fit within the container width */
+    max-height: 100%; /* Resize image to fit within the container height */
+    width: 200px;
+    height: 59px;
+}
+
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 40px;
+}
+
+.navbar ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1px;
+    margin-right: 100px;
+    height: 40px;
+    margin-bottom: 0px;
+   
+    
+
+}
+
+.navbar ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+.navbar ul li a:hover{
+    color: black;
+}
+
+.search{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 300px;
+    height: 40px;
+    background: white;
+    border: 1px solid black ;
+    margin-top: 13px;
+    color: black;
+    border-right: none;
+    font-size: 16px;
+    float: top;
+    padding: 10px;
+    margin-left: 6px;
+    margin-bottom: 6px;
+   
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background:black;
+    border: 1px solid white;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 14px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+   
+    
+}
+.btn:hover{
+    background-color: rgb(52, 52, 52);
+    
+}
+.search a img{
+    padding-top: 10px;
+    padding-right: 20px;
+}
+.search a {
+  display: grid;
+}
+ 
+
+
+
+
+
+.categories{
+    
+    height: 20px;
+  
+    background-color: white;
+}
+.categories ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+    
+    margin-left: 100px;
+    
+    margin-bottom: 0px;
+    
+   
+    
+
+}
+
+.categories ul li{
+    list-style: none;
+    margin-left: 62px;
+    
+    font-size: 12px;
+
+}
+
+.categories ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+.categories ul li a:hover{
+    color: rgb(169, 12, 12);
+}
